@@ -1,0 +1,9 @@
+server:
+  port: 9003
+
+spring:
+  profiles:
+    active: local
+restClient:
+  moviesInfoUrl: http://localhost:9001/api/v1/movieinfos
+  reviewsUrl: http://localhost:9002/api/v1/reviews
